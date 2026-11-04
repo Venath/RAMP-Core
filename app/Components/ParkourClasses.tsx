@@ -111,7 +111,7 @@ export default function ParkourClasses() {
               {/* Footer */}
               <div className="flex justify-center">
                 <a
-                  href={process.env.WHATSAPP_CONTACT_URL ?? process.env.PUBLIC_WHATSAPP_COMMUNITY_URL}
+                  href={process.env.NEXT_PUBLIC_WHATSAPP_COMMUNITY_URL ?? process.env.NEXT_PUBLIC_WHATSAPP_COMMUNITY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group/btn flex items-center justify-center gap-3 rounded-full border border-[#25D366]/50 bg-[#25D366] px-7 py-4 text-sm font-medium uppercase tracking-[0.25em] text-black transition-colors duration-200 hover:bg-[#3ee67c] md:px-9 md:text-base"

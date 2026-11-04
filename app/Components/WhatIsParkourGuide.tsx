@@ -399,7 +399,7 @@ export default function WhatIsParkourGuide() {
               Newsletter sign-ups are coming soon.
             </p>
             <a
-              href={process.env.PUBLIC_WHATSAPP_COMMUNITY_URL}
+              href={process.env.NEXT_PUBLIC_WHATSAPP_COMMUNITY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center border border-[#25D366]/50 bg-[#25D366] px-5 py-3 text-[10px] uppercase tracking-[0.25em] text-black transition-colors hover:bg-[#3ee67c]"
