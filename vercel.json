@@ -1,0 +1,10 @@
+
+{
+  "redirects": [
+    {
+      "source": "/go",
+      "destination": "https://www.rampparkour.com/parkourclasses",
+      "permanent": false
+    }
+  ]
+}
