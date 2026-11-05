@@ -171,8 +171,8 @@ export default function HowToGetStarted() {
             </p>
           </div>
 
-          {/* ── Slide panel: fixed height, flex row ── */}
-          <div className="flex border border-white/10 rounded-2xl overflow-hidden shadow-2xl h-[460px]">
+          {/* ── Slide panel: stacked on mobile, split on desktop ── */}
+          <div className="flex flex-col md:flex-row border border-white/10 rounded-2xl overflow-hidden shadow-2xl md:h-[460px]">
 
             {/* LEFT — image (hidden on mobile, full width on mobile stack) */}
             <div className="relative hidden md:block md:w-1/2 shrink-0">
@@ -196,7 +196,7 @@ export default function HowToGetStarted() {
             </div>
 
             {/* Mobile-only image strip at top */}
-            <div className="absolute top-0 left-0 right-0 h-48 md:hidden">
+            <div className="relative h-48 w-full shrink-0 md:hidden">
               {slides.map((s, i) => (
                 <div
                   key={`mob-${s.number}`}
@@ -217,9 +217,9 @@ export default function HowToGetStarted() {
             </div>
 
             {/* RIGHT — text panel */}
-            <div className="relative flex flex-col w-full md:w-1/2 bg-[#0d0d0d] p-7 md:p-10 pt-52 md:pt-10">
+            <div className="relative flex flex-col w-full md:w-1/2 bg-[#0d0d0d] p-7 md:p-10">
               {/* Content */}
-              <div className="flex-1 flex flex-col justify-center overflow-hidden">
+              <div className="flex-1 flex flex-col justify-center">
                 <p className="font-[var(--font-bebas)] text-xs tracking-[0.45em] text-white/35 uppercase mb-1">
                   {slide.number}
                 </p>
@@ -232,7 +232,7 @@ export default function HowToGetStarted() {
                 </h2>
                 <div
                   key={`body-${current}`}
-                  className="space-y-3 overflow-hidden"
+                  className="space-y-3"
                   style={{ animation: 'fadeUp 0.45s 0.06s ease both' }}
                 >
                   {slide.description.map((para, idx) => (
