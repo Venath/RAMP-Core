@@ -37,6 +37,9 @@ export default function Home() {
         />
 
         <main className="relative min-h-screen flex flex-col items-center justify-center px-6 text-center pt-20">
+            <p className="font-[var(--font-bebas)] text-sm md:text-base tracking-[0.4em] text-white/70 mb-4 uppercase">
+    Parkour in Sri Lanka
+  </p>
           <p className="font-[var(--font-bebas)] text-sm md:text-base tracking-[0.4em] text-white/70 mb-4 uppercase">
             Street Parkour
           </p>

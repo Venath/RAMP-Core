@@ -163,6 +163,24 @@ export default function HowToGetStarted() {
             </div>
           </div>
 
+                <section className="bg-[#161616] px-4 pb-20 pt-12 md:px-12 md:pt-16">
+        <div className="mx-auto max-w-6xl">
+          <div className="relative border border-white/10 bg-white/[0.035] p-7 shadow-[0_24px_80px_rgba(0,0,0,0.2)] before:absolute before:left-0 before:top-0 before:h-full before:w-1 before:bg-[#FF5A1F] md:flex md:items-center md:justify-between md:p-10">
+            <div>
+              <h2 className="font-[var(--font-bebas)] text-3xl text-white md:text-4xl">
+                Join an All Levels Parkour Class
+              </h2>
+            </div>
+            <Link
+              href="/parkourclasses"
+              className="mt-6 inline-flex border border-white/25 px-6 py-3 font-[var(--font-bebas)] text-sm uppercase tracking-[0.2em] text-white transition-colors hover:bg-white hover:text-black md:mt-0"
+            >
+              View Classes
+            </Link>
+          </div>
+        </div>
+      </section>
+
           {/* Section label */}
           <div className="flex items-center gap-4 mb-10">
             <div className="w-8 h-px bg-[#FF5A1F]" />

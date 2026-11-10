@@ -188,6 +188,10 @@ export default function WhoWeArePage() {
                   His vision is to help Sri Lankan parkour grow while building RAMP into a
                   recognised movement and content brand.
                 </p>
+                <p>
+                  Alongside his work with RAMP, Venath is also a software engineer, combining his technical
+                  background with his passion for creativity, technology and movement.
+                </p>
               </div>
             </div>
           </div>
