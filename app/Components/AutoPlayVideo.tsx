@@ -111,15 +111,12 @@ export default function VideoSection() {
 
             <div className="w-12 h-[2px] bg-[#FF5A1F] mb-7" />
 
+ 
             <p className="text-white/65 text-base leading-relaxed mb-4">
-              RAMP is Sri Lanka&apos;s leading street parkour crew. We don&apos;t just train — we
-              live and breathe the art of movement. From rooftops to rail yards, we find lines where
-              others see walls.
+              RAMP is a Sri Lankan parkour team dedicated to growing the sport of parkour in Sri Lanka. Through creative movement, athletic training, and engaging content, we bring together people who share a passion for parkour, movement, and physical expression. From urban environments to purpose-built training spaces, we explore new ways to move, challenge ourselves, and redefine what's possible.
             </p>
             <p className="text-white/40 text-sm leading-relaxed mb-10">
-              Founded by a group of passionate traceurs, RAMP has grown into a community that
-              celebrates freedom, discipline, and raw creativity through movement. We train. We
-              connect. We push each other to go further.
+              Founded by passionate traceurs, RAMP has grown into a community that promotes parkour in Sri Lanka through training sessions, creative projects, and community events. We believe in safe training, discipline, creativity, and connecting people through movement.
             </p>
 
             {/* Social links */}
