@@ -18,10 +18,13 @@ const bebasNeue = Bebas_Neue({
   weight: "400",
 });
 
+
 export const metadata: Metadata = {
-  title: "RAMP | Parkour",
-  description: "Street parkour — Move freely. Break boundaries.",
+  metadataBase: new URL("https://rampparkour.com"),
+  title: "RAMP Parkour Sri Lanka",
+  description: "RAMP is a Sri Lankan parkour team offering parkour training, coaching and street parkour experiences. Join our free weekly community training sessions and develop movement, coordination, body control and safe landing techniques."
 };
+
 
 export default function RootLayout({
   children,
